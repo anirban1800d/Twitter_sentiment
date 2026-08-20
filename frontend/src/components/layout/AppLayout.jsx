@@ -31,25 +31,13 @@ export default function AppLayout() {
           </p>
 
           <h1 className="bg-gradient-to-r from-white via-violet-200 to-indigo-300 bg-clip-text text-4xl font-black tracking-tight text-transparent sm:text-6xl">
-            TWITTER SENTIMENT
+            NEXUS SENTIMENT
           </h1>
 
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-slate-500 sm:text-base">
             Analyze social media comments with a four-class sentiment classifier
             powered by TF-IDF and Multinomial Naive Bayes.
           </p>
-          <div className="mx-auto mt-5 max-w-3xl rounded-xl border border-amber-500/20 bg-amber-500/5 px-5 py-4 text-left">
-            <p className="text-xs font-semibold uppercase tracking-widest text-amber-400">
-              Dataset Notice
-            </p>
-
-            <p className="mt-2 text-sm leading-6 text-slate-400">
-                This model was trained on a Twitter sentiment dataset. It is optimized
-                for Twitter-style language and may perform poorly on general text,
-                formal writing, or content outside its training domain.
-            </p>
-          </div>
-          
 
           <div className="mt-5 flex flex-wrap justify-center gap-2">
             <Badge label="TF-IDF" />

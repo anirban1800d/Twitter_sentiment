@@ -7,12 +7,12 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
         <div className="flex items-center gap-3">
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500 to-indigo-600 font-bold text-white shadow-lg shadow-violet-900/30">
-            A
+            N
           </div>
           <div>
-            <div className="font-bold tracking-wider text-slate-100">Anik_77</div>
+            <div className="font-bold tracking-wider text-slate-100">NEXUS</div>
             <div className="text-[10px] font-mono tracking-widest text-slate-500">
-              ARC Engine
+              SENTIMENT ENGINE
             </div>
           </div>
         </div>

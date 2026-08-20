@@ -96,7 +96,16 @@ Check the browser console and Network tab.
 Also verify:
 
 ```text
-GET http://127.0.0.1:8000/
-POST http://127.0.0.1:8000/predict
-POST http://127.0.0.1:8000/predict/batch
+GET https://twitter-sentiment-sc78.onrender.com/
+POST https://twitter-sentiment-sc78.onrender.com/predict
+POST https://twitter-sentiment-sc78.onrender.com/predict/batch
 ```
+
+
+## Production API
+
+The deployed FastAPI backend is:
+
+`https://twitter-sentiment-sc78.onrender.com`
+
+For Vercel, configure `VITE_API_BASE_URL` with this value. Do not commit secrets.

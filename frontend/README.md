@@ -6,11 +6,11 @@ React + Vite frontend for the FastAPI Social Media Comment Sentiment Classifier.
 
 The frontend expects FastAPI at:
 
-`http://127.0.0.1:8000`
+`https://twitter-sentiment-sc78.onrender.com`
 
 Override it with:
 
-`VITE_API_BASE_URL`
+`VITE_API_BASE_URL` (recommended for deployment)
 
 ### GET /
 
@@ -87,13 +87,13 @@ npm run preview
 
 ### Backend disconnected
 
-Check that FastAPI is running and that `.env` contains:
+Check that the Render FastAPI service is live and that `.env` contains:
 
 ```env
-VITE_API_BASE_URL=http://127.0.0.1:8000
+VITE_API_BASE_URL=https://twitter-sentiment-sc78.onrender.com
 ```
 
-After changing `.env`, restart Vite.
+After changing `.env`, restart Vite. For Vercel, also add the same variable in the Vercel project Environment Variables settings.
 
 ### CORS
 
